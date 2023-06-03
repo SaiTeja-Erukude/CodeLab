@@ -11,7 +11,7 @@ if ( !fs.existsSync( codesPath ) ) {
 
 const generateFile = async ( language, code ) => {
     let fileName = generateFileName();
-    code = code.replace( 'Main', fileName );
+    code = code.replace( 'CodeLab', fileName );
 
     if ( language === 'java' ) {
         fileName += '.java';

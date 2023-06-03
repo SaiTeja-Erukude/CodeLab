@@ -43,7 +43,7 @@ runBtn.addEventListener( 'click', async () => {
 // boiler plate code for java
 languageSelector.addEventListener( 'change', function () {
     if ( this.value === 'java' ) {
-        codeEditor.value = 'class Main {\n\t public static void main( String[] args ) {\n\t\tSystem.out.println( "Hello World!" );  \n\t} \n}';
+        codeEditor.value = 'class CodeLab {\n\t public static void main( String[] args ) {\n\t\tSystem.out.println( "Hello World!" );  \n\t} \n}';
     }
     sessionStorage.setItem( 'language', this.value );
 } );
