@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeLab</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to CodeLab!</h1>
+    </header>
+    <main>
+        <div class="editor-container">
+            <textarea id="code-editor" spellcheck="false" placeholder="Write your code here">
+            </textarea>
+        </div>
+        <select id="language-select">
+            <option value="python" selected>Python</option>
+            <option value="java">Java</option>
+        </select>
+        <button id="run-button">Run</button>
+        <div id="output-container">
+            <pre id="output"></pre>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2023 Sai Teja Erukude.
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
